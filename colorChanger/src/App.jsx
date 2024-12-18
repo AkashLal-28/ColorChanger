@@ -44,6 +44,12 @@ function App() {
               <button onClick = {() => {setColor("olive"); setHeading("I'm Olive Now")}} className='outline-none px-4 py-1 rounded-full
                text-white shadow-lg' style={{backgroundColor: "olive"}}>Olive</button>
 
+              <button onClick = {() => {setColor("violet"); setHeading("I'm violet Now")}} className='outline-none px-4 py-1 rounded-full
+               text-white shadow-lg' style={{backgroundColor: "violet"}}>violet</button>
+
+              <button onClick = {() => {setColor("pink"); setHeading("I'm pink Now")}} className='outline-none px-4 py-1 rounded-full
+               text-white shadow-lg' style={{backgroundColor: "pink"}}>Pink</button>
+
              </div>
           </div>
       </div>
